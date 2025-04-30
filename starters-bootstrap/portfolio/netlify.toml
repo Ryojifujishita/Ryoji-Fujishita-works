@@ -1,6 +1,15 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  base    = "starters-bootstrap/portfolio"
   publish = "public"
+  command = "cd starters-bootstrap && hugo"
+
+[site]
+  site_url = "https://ryoji-fujishita-works.netlify.app"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200  
 
 [build.environment]
   HUGO_VERSION = "0.119.0"
@@ -20,5 +29,3 @@
   [plugins.inputs]
     debug = true
 
-[site]
-  site_url = "https://ryoji-fujishita-works.netlify.app"
