@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: kickoff  # ← 実際のブランチ名に合わせて
+  branch: kickoff
+  site_domain: ryoji-fujishita-works.netlify.app
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
