@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
   branch: kickoff
+  identity_url: https://ryoji-fujishita-works.netlify.app/.netlify/identity
   site_domain: ryoji-fujishita-works.netlify.app
+  gateway_url: https://api.netlify.com
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
