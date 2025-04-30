@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Ryojifujishita/Ryoji-Fujishita-works
+  name: git-gateway
   branch: kickoff
 
 media_folder: "static/uploads"
