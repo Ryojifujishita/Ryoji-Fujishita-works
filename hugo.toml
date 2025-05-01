@@ -1,13 +1,18 @@
-baseURL = "http://localhost:1313/"
-languageCode = "ja"
-title = "My Portfolio"
-theme = "hugo-blox-builder"
+baseURL = 'https://ryojifujishita.github.io/Ryoji-Fujishita-works/'
+languageCode = 'ja'
+title = 'Ryoji Fujishita Works'
+theme = 'hugo-blox-builder'
+publishDir = "docs"
 
 [params]
   # サイトの設定
   description = "My Portfolio Site"
   author = "Your Name"
   email = "your.email@example.com"
+  mainSections = ['post']
+  featuredImageField = 'image'
+  rssFullContent = true
+  favicon = '/favicon.ico'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -18,4 +23,11 @@ theme = "hugo-blox-builder"
 [module]
   [[module.mounts]]
     source = "static"
-    target = "static" 
+    target = "static"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10 

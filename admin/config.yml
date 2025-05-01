@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: your-github-username/your-repo-name # あなたのGitHubユーザー名とリポジトリ名に変更してください
-  branch: main # デフォルトのブランチ名
+  repo: Ryojifujishita/Ryoji-Fujishita-works
+  branch: main
   base_url: https://api.netlify.com
 
 local_backend: true
