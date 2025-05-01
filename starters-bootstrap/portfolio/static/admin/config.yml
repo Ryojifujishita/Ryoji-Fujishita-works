@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Ryojifujishita/Ryoji-Fujishita-works
   branch: kickoff
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
