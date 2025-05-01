@@ -1,7 +1,14 @@
 baseURL = "https://ryojifujishita.github.io/Ryoji-Fujishita-works/"
 title = "Ryoji Fujishita Works"
-theme = "PaperMod"
+theme = "portfolio"
 publishDir = "docs"
+defaultContentLanguage = "ja"
+
+[languages]
+  [languages.ja]
+    languageName = "Japanese"
+    weight = 1
+    title = "Ryoji Fujishita Works"
 
 [pagination]
 pagerSize = 5
@@ -16,27 +23,72 @@ disableXML = true
 minifyOutput = true
 
 [params]
-env = "production"
-title = "Ryoji Fujishita Works"
-description = "My portfolio website"
-keywords = ["Portfolio", "Blog"]
-author = "Ryoji Fujishita"
-DateFormat = "January 2, 2006"
-defaultTheme = "auto"
-disableThemeToggle = false
+    # Style options: default (pink), blue, green, pink, red, sea, violet
+    style = "sea"
+
+    description = "Ryoji Fujishita's Portfolio"
+    copyright = "© 2024 Ryoji Fujishita"
+    sidebarAbout = [
+        "I am a creative developer focused on creating innovative solutions.",
+        "Based in Japan"
+    ]
+    # Contact page
+    email = "your.email@example.com"
+    address = "Tokyo, Japan"
+
+    # Nav links in the side bar
+    [[params.navlinks]]
+    name = "Home"
+    url = "portfolio/"
+    home = true
+
+    [[params.navlinks]]
+    name = "About"
+    url = "about/"
+
+    [[params.navlinks]]
+    name = "Blog"
+    url = "blog/"
+
+    [params.social]
+    github = "https://github.com/Ryojifujishita"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    twitter = "https://twitter.com/yourprofile"
 
 [params.homeInfoParams]
-Title = "Welcome to my portfolio 👋"
-Content = "This is my personal website where I share my work and thoughts."
+Title = "Welcome to My Portfolio 👋"
+Content = """
+Welcome to my personal website. I'm a developer passionate about creating and sharing.
+Here you'll find my projects, blog posts, and more.
+"""
+
+[params.profileMode]
+enabled = true
+title = "Ryoji Fujishita"
+subtitle = "Developer & Creator"
+imageUrl = "/images/profile.jpg"
+imageTitle = "Profile Image"
 
 [[menu.main]]
 identifier = "home"
-name = "Home"
+name = "🏠 Home"
 url = "/"
 weight = 10
 
 [[menu.main]]
 identifier = "blog"
-name = "Blog"
-url = "/blog/"
-weight = 20 
+name = "📝 Blog"
+url = "/blog"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "🔍 Search"
+url = "/search"
+weight = 30
+
+[[menu.main]]
+identifier = "archives"
+name = "📚 Archives"
+url = "/archives"
+weight = 40 
