@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Ryoji Fujishita Works</title><link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/</link><description>Recent content in Tags on Ryoji Fujishita Works</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</guid><description/></item><item><title>World</title><link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Ryoji Fujishita Works</title>
+    <link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/</link>
+    <description>Recent content in Tags on Ryoji Fujishita Works</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>World</title>
+      <link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ryojifujishita.github.io/Ryoji-Fujishita-works/sitemap.xml

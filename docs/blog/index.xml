@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Ryoji Fujishita Works</title><link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/</link><description>Recent content in Blogs on Ryoji Fujishita Works</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/2024/05/01/hello-world/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/2024/05/01/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
-&lt;p>これは初めてのブログ記事です。
-Decap CMSを使ってコンテンツを管理します。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Ryoji Fujishita Works</title>
+    <link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/</link>
+    <description>Recent content in Blogs on Ryoji Fujishita Works</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/hello-world/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/hello-world/</guid>
+      <description>初めてのブログ記事です</description>
+    </item>
+  </channel>
+</rss>

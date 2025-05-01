@@ -1,33 +1,42 @@
-baseURL = 'https://ryojifujishita.github.io/Ryoji-Fujishita-works/'
-languageCode = 'ja'
-title = 'Ryoji Fujishita Works'
-theme = 'hugo-blox-builder'
+baseURL = "https://ryojifujishita.github.io/Ryoji-Fujishita-works/"
+title = "Ryoji Fujishita Works"
+theme = "PaperMod"
 publishDir = "docs"
 
+[pagination]
+pagerSize = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
 [params]
-  # サイトの設定
-  description = "My Portfolio Site"
-  author = "Your Name"
-  email = "your.email@example.com"
-  mainSections = ['post']
-  featuredImageField = 'image'
-  rssFullContent = true
-  favicon = '/favicon.ico'
+env = "production"
+title = "Ryoji Fujishita Works"
+description = "My portfolio website"
+keywords = ["Portfolio", "Blog"]
+author = "Ryoji Fujishita"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[params.homeInfoParams]
+Title = "Welcome to my portfolio 👋"
+Content = "This is my personal website where I share my work and thoughts."
 
-[permalinks]
-  blog = "/blog/:year/:month/:day/:slug/"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
 
-[module]
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10 
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 20 

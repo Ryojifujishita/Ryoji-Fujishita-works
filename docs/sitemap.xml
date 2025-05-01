@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/2024/05/01/hello-world/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod></url><url><loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/hello/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/blog/hello-world/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/tags/world/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ryojifujishita.github.io/Ryoji-Fujishita-works/categories/</loc>
+  </url>
+</urlset>
