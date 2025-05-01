@@ -111,3 +111,51 @@ Feel free to [_star_ the project on Github](https://github.com/HugoBlox/hugo-blo
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
 The [Hugo Blox Builder](https://github.com/HugoBlox/hugo-blox-builder/) repository is released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+
+# Portfolio Site
+
+このリポジトリは、Hugo と Decap CMS を使用して構築されたポートフォリオサイトです。
+
+## 技術スタック
+
+- [Hugo](https://gohugo.io/) - 静的サイトジェネレーター
+- [Decap CMS](https://decapcms.org/) - ヘッドレスCMS
+- [Hugo Blox Builder](https://hugoblox.com/) - Hugoテーマ
+
+## ローカル開発
+
+1. リポジトリをクローン:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. 依存関係をインストール:
+```bash
+npm install
+```
+
+3. Hugoサーバーを起動:
+```bash
+hugo server -D
+```
+
+4. Decap CMSを使用するには:
+- ブラウザで http://localhost:1313/admin/ にアクセス
+- GitHubアカウントでログイン
+
+## デプロイ
+
+このサイトはGitHub Pagesを使用してデプロイされています。
+`main`ブランチにプッシュすると、GitHub Actionsによって自動的にデプロイされます。
+
+## コンテンツ管理
+
+コンテンツの管理は Decap CMS を通じて行います:
+1. 本番サイトの `/admin` にアクセス
+2. GitHubアカウントでログイン
+3. コンテンツを編集・公開
+
+## ライセンス
+
+MIT License

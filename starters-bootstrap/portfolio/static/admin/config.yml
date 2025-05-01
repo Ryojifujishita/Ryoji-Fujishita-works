@@ -1,9 +1,7 @@
 backend:
   name: github
-  repo: Ryojifujishita/Ryoji-Fujishita-works
-  branch: kickoff
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  repo: ryojifujishita/ryoji-fujishita-works  # あなたのGitHubリポジトリ名に置き換えてください
+  branch: main  # またはkickoffなど、使いたいブランチ名
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
