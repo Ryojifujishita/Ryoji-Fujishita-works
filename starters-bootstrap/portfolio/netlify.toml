@@ -4,7 +4,7 @@
   command = "hugo"
 
 [functions]
-  directory = "functions"
+  directory = "starters-bootstrap/portfolio/netlify/functions"
 
 [site]
   site_url = "https://ryoji-fujishita-works.netlify.app" 
