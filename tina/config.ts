@@ -8,20 +8,6 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "public",
   },
-  media: {
-    tina: {
-      mediaRoot: "images",
-      publicFolder: "public",
-    },
-  },
-  auth: {
-    onLogin: async () => {
-      window.location.href = "/admin";
-    },
-    onLogout: async () => {
-      window.location.href = "/admin";
-    },
-  },
   schema: {
     collections: [
       {
