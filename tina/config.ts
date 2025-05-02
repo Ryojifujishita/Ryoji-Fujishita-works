@@ -1,8 +1,8 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "",
   branch: process.env.NEXT_PUBLIC_TINA_BRANCH || "main",
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "",
   token: process.env.TINA_TOKEN || "",
   build: {
     outputFolder: "admin",
@@ -95,13 +95,5 @@ export default defineConfig({
         ],
       },
     ],
-  },
-  search: {
-    tina: {
-      indexerToken: process.env.TINA_TOKEN || "",
-      stopwordLanguages: ["eng", "jpn"],
-    },
-    indexBatchSize: 100,
-    maxSearchIndexFieldLength: 100,
   },
 }); 
