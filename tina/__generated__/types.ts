@@ -592,7 +592,7 @@ const generateRequester = (
     const data = await client.request({
       query: doc,
       variables: vars,
-      url,
+      url: process.env.NEXT_PUBLIC_TINA_API_URL || "http://localhost:4001/graphql",
     }, options)
 
     return { data: data?.data, errors: data?.errors, query: doc, variables: vars || {} }
@@ -608,7 +608,7 @@ export const ExperimentalGetTinaClient = () =>
   getSdk(
     generateRequester(
       createClient({
-        url: "http://localhost:4001/graphql",
+        url: process.env.NEXT_PUBLIC_TINA_API_URL || "http://localhost:4001/graphql",
         queries,
       })
     )
