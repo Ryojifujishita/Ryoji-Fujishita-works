@@ -2,20 +2,41 @@ import Link from 'next/link'
 import { client } from '../../tina/__generated__/client'
 
 export default async function PostsPage() {
-  const { data } = await client.queries.pageConnection()
+  try {
+    const { data } = await client.queries.pageConnection()
 
-  return (
-    <div>
-      <h1>Posts</h1>
+    if (!data?.pageConnection?.edges?.length) {
+      return (
+        <div>
+          <h1>Posts</h1>
+          <p>No posts available at the moment.</p>
+        </div>
+      )
+    }
+
+    return (
       <div>
-        {data.pageConnection.edges?.map((post) => (
-          <div key={post?.node?._sys.filename}>
-            <Link href={`/posts/${post?.node?._sys.filename}`}>
-              {post?.node?._sys.filename}
-            </Link>
-          </div>
-        ))}
+        <h1>Posts</h1>
+        <div>
+          {data.pageConnection.edges.map((post) => (
+            post?.node && (
+              <div key={post.node._sys.filename}>
+                <Link href={`/posts/${post.node._sys.filename}`}>
+                  {post.node._sys.filename}
+                </Link>
+              </div>
+            )
+          ))}
+        </div>
       </div>
-    </div>
-  )
+    )
+  } catch (error) {
+    console.error('Error fetching posts:', error)
+    return (
+      <div>
+        <h1>Posts</h1>
+        <p>Failed to load posts. Please try again later.</p>
+      </div>
+    )
+  }
 } 
