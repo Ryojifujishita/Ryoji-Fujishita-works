@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react';
 import { TinaEditProvider } from 'tinacms/dist/edit-state'
 
 export function Providers({ children }: { children: React.ReactNode }) {

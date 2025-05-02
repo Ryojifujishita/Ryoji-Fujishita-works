@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { client } from '../../tina/__generated__/client'
-import type { PageConnectionQuery } from '../../tina/__generated__/types'
 
 export default async function PostsPage() {
   const { data } = await client.queries.pageConnection()
