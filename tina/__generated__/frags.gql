@@ -1,0 +1,16 @@
+fragment PageParts on Page {
+  __typename
+  title
+  body
+}
+
+fragment ProjectParts on Project {
+  __typename
+  title
+  description
+  date
+  url
+  tags
+  thumbnail
+  body
+}
